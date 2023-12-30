@@ -1,0 +1,38 @@
+/* HomeScreen.css */
+
+.homeScreenWrapper {
+    background-color: white;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .homeScreen {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .venueCard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .venueCard:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .homeScreenWrapper {
+      padding: 4rem;
+    }
+  }

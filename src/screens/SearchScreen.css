@@ -1,0 +1,19 @@
+/* SearchScreen.css */
+.searchScreenWrapper {
+    padding: 2rem 0;
+  }
+  
+  .filterTitle {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .filterSection {
+    margin-bottom: 2rem;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }

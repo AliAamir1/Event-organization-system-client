@@ -1,0 +1,43 @@
+.alternate-date {
+    background-color: darkred;
+    color: white;
+  }
+  
+  .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  .react-datepicker__calendar-container {
+  width: 400px; /* Adjust the width to your desired size */
+}
+
+.react-datepicker__day-names,
+.react-datepicker__week {
+  white-space: nowrap;
+}
+
+.react-datepicker__day {
+  display: inline-block;
+  width: 38px; /* Adjust the width to your desired size */
+  height: 38px; /* Adjust the height to your desired size */
+  line-height: 50px; /* Adjust the line height to center the date */
+  text-align: center;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.react-datepicker__day--selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.react-datepicker__day--disabled {
+  color: gray;
+  cursor: not-allowed;
+}
+
+.react-datepicker__day--disabled.alternate-date {
+  background-color: #f2f2f2;
+  color: gray;
+}
